@@ -3,7 +3,7 @@ from selenium.common.exceptions import NoSuchElementException,TimeoutException
 import psycopg2
 import time
 
-conn = psycopg2._connect("dbname=postgres user=postgres password=19950210")
+conn = psycopg2._connect("dbname=postgres user=postgres password=")
 cur = conn.cursor()
 
 urlTraverse = {
